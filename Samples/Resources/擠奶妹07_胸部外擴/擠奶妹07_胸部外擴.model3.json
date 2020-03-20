@@ -1,0 +1,40 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "擠奶妹07_胸部外擴.moc3",
+		"Textures": [
+			"擠奶妹07_胸部外擴.4096/texture_00.png"
+		],
+		"Physics": "擠奶妹07_胸部外擴.physics3.json",
+		"DisplayInfo": "擠奶妹07_胸部外擴.cdi3.json",
+		"Motions": {
+			"Idle": [
+			  {"File":"不透明.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.5}
+			],
+			"TapBody": [
+			  {"File":"透明.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.5}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		}
+	],
+	"HitAreas": [
+		{
+				"Id": "HitArea",
+				"Name": "Body"
+		}
+	]
+}
