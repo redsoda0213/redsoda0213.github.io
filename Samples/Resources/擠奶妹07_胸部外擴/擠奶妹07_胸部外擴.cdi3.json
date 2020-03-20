@@ -12,6 +12,16 @@
 			"Name": "右目　開閉"
 		},
 		{
+			"Id": "Param17",
+			"GroupId": "ParamGroup",
+			"Name": "眼睛變成瞇眼"
+		},
+		{
+			"Id": "Param24",
+			"GroupId": "ParamGroup",
+			"Name": "嘴巴變成嘟嘴"
+		},
+		{
 			"Id": "ParamEyeBallX",
 			"GroupId": "ParamGroup",
 			"Name": "目玉 X"
@@ -220,6 +230,10 @@
 		}
 	],
 	"Parts": [
+		{
+			"Id": "Part24",
+			"Name": "嬌羞低頭元件.psd"
+		},
 		{
 			"Id": "Part23",
 			"Name": "背景.psd"
