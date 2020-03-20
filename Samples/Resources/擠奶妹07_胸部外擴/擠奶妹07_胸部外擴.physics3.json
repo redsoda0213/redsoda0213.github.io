@@ -4,7 +4,7 @@
 		"PhysicsSettingCount": 5,
 		"TotalInputCount": 5,
 		"TotalOutputCount": 19,
-		"VertexCount": 10,
+		"VertexCount": 9,
 		"EffectiveForces": {
 			"Gravity": {
 				"X": 0,
@@ -285,7 +285,7 @@
 						"Id": "ParamAngleZ"
 					},
 					"Weight": 100,
-					"Type": "Angle",
+					"Type": "X",
 					"Reflect": false
 				}
 			],
@@ -296,7 +296,7 @@
 						"Id": "Param15"
 					},
 					"VertexIndex": 1,
-					"Scale": 100,
+					"Scale": 65,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -316,22 +316,12 @@
 				{
 					"Position": {
 						"X": 0,
-						"Y": 10
+						"Y": 15
 					},
 					"Mobility": 0.95,
-					"Delay": 1,
-					"Acceleration": 1,
-					"Radius": 10
-				},
-				{
-					"Position": {
-						"X": 0,
-						"Y": 20
-					},
-					"Mobility": 0.95,
-					"Delay": 1,
-					"Acceleration": 1,
-					"Radius": 10
+					"Delay": 0.8,
+					"Acceleration": 1.5,
+					"Radius": 15
 				}
 			],
 			"Normalization": {
@@ -341,9 +331,9 @@
 					"Maximum": 10
 				},
 				"Angle": {
-					"Minimum": -15.2,
+					"Minimum": -10,
 					"Default": 0,
-					"Maximum": 15
+					"Maximum": 10
 				}
 			}
 		},
@@ -367,7 +357,7 @@
 						"Id": "Param22"
 					},
 					"VertexIndex": 1,
-					"Scale": 50,
+					"Scale": 100,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": true
