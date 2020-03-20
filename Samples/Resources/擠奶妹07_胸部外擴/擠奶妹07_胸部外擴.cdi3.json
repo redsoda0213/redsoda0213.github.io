@@ -132,7 +132,7 @@
 			"Name": "角度 X"
 		},
 		{
-			"Id": "ParamAngleY2",
+			"Id": "ParamBodyAngleY",
 			"GroupId": "ParamGroup3",
 			"Name": "角度 Y"
 		},
@@ -220,6 +220,10 @@
 		}
 	],
 	"Parts": [
+		{
+			"Id": "Part23",
+			"Name": "背景.psd"
+		},
 		{
 			"Id": "Part22",
 			"Name": "live3D girl15_上手臂.psd"
