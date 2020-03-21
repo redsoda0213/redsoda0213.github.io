@@ -15,14 +15,6 @@
 			  {"File":"透明.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.5}
 			]
 		}
-{
-			"Idle": [
-			  {"File":"不透明.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.5}
-			],
-			"TapBody": [
-			  {"File":"透明2.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.5}
-			]
-		}
 	},
 	"Groups": [
 		{
@@ -43,10 +35,6 @@
 		{
 				"Id": "HitArea",
 				"Name": "Body"
-		}
-{
-				"Id": "HitArea2",
-				"Name": "Body2"
 		}
 	]
 }
