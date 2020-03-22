@@ -122,7 +122,7 @@ export class LAppLive2DManager {
           .at(i)
           .startRandomMotion(
             LAppDefine.MotionGroupTapBody,
-            LAppDefine.PriorityNormal,
+            LAppDefine.PriorityForce,
             this._finishedMotion
           );
       }
@@ -136,7 +136,7 @@ export class LAppLive2DManager {
           .at(i)
           .startRandomMotion(
             LAppDefine.MotionGroupTapBody2,
-            LAppDefine.PriorityNormal,
+            LAppDefine.PriorityForce,
             this._finishedMotion
           );
       }
