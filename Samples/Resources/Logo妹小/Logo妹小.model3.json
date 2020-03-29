@@ -3,7 +3,7 @@
 	"FileReferences": {
 		"Moc": "Logo妹小.moc3",
 		"Textures": [
-			"Logo妹小.1024/texture_00.png"
+			"Logo妹小.2048/texture_00.png"
 		],
 		"Physics": "Logo妹小.physics3.json",
 		"DisplayInfo": "Logo妹小.cdi3.json",
