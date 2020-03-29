@@ -1,0 +1,42 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "Logo妹小.moc3",
+		"Textures": [
+			"Logo妹小.1024/texture_00.png"
+		],
+		"Physics": "Logo妹小.physics3.json",
+		"DisplayInfo": "Logo妹小.cdi3.json",
+		"Motions": {
+			"Idle": [
+			  {"File":"LOGO待機.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.5}
+			],
+			"TapBody": [
+			  {"File":"觸控_害羞.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.5}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [
+				"ParamBreath"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		}
+	],
+	"HitAreas": [
+		{
+			"Id": "HitArea",
+			"Name": "Body"
+		}
+	]
+}
