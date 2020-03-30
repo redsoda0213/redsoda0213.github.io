@@ -261,6 +261,10 @@
 	],
 	"Parts": [
 		{
+			"Id": "Part4",
+			"Name": "背景.psd"
+		},
+		{
 			"Id": "Part2",
 			"Name": "LOGO.psd"
 		},
