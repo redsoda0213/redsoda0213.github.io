@@ -1,0 +1,41 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "船長第三周示範用_身體的部分2.moc3",
+		"Textures": [
+			"船長第三周示範用_身體的部分2.4096/texture_00.png"
+		],
+		"Physics": "船長第三周示範用_身體的部分2.physics3.json",
+		"DisplayInfo": "船長第三周示範用_身體的部分2.cdi3.json",
+		"Motions": {
+			"Idle": [
+			  {"File":"完成.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.5}
+			],
+			"TapBody": [
+			  {"File":"害羞.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.5}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		}
+	],
+	"HitAreas": [
+		{
+			"Id": "HitArea",
+			"Name": "当たり判定用画像"
+		}
+	
+	]
+}
