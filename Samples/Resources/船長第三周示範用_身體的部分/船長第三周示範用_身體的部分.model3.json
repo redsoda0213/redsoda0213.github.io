@@ -1,0 +1,31 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "船長第三周示範用_身體的部分.moc3",
+		"Textures": [
+			"船長第三周示範用_身體的部分.2048/texture_00.png"
+		],
+		"Physics": "船長第三周示範用_身體的部分.physics3.json",
+		"DisplayInfo": "船長第三周示範用_身體的部分.cdi3.json",
+		"Motions": {
+			"Idle": [
+			  {"File":"完成.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.5}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		}
+	]
+}
