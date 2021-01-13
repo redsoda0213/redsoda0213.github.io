@@ -196,7 +196,7 @@
 				{
 					"Source": {
 						"Target": "Parameter",
-						"Id": "ParamBodyAngleX"
+						"Id": "Param38"
 					},
 					"Weight": 100,
 					"Type": "X",
@@ -210,7 +210,7 @@
 						"Id": "Param9"
 					},
 					"VertexIndex": 1,
-					"Scale": 54,
+					"Scale": 26,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -221,7 +221,7 @@
 						"Id": "Param10"
 					},
 					"VertexIndex": 1,
-					"Scale": 45,
+					"Scale": 30,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -232,7 +232,7 @@
 						"Id": "Param11"
 					},
 					"VertexIndex": 1,
-					"Scale": 56,
+					"Scale": 28,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -362,7 +362,7 @@
 				{
 					"Source": {
 						"Target": "Parameter",
-						"Id": "ParamBodyAngleX"
+						"Id": "Param24"
 					},
 					"Weight": 100,
 					"Type": "X",
@@ -376,7 +376,7 @@
 						"Id": "Param15"
 					},
 					"VertexIndex": 1,
-					"Scale": 150,
+					"Scale": 29,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -387,7 +387,7 @@
 						"Id": "Param16"
 					},
 					"VertexIndex": 1,
-					"Scale": 78,
+					"Scale": 30,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -398,7 +398,7 @@
 						"Id": "Param17"
 					},
 					"VertexIndex": 1,
-					"Scale": 45,
+					"Scale": 28,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -429,7 +429,7 @@
 			"Normalization": {
 				"Position": {
 					"Minimum": -10,
-					"Default": 0,
+					"Default": -0.4,
 					"Maximum": 10
 				},
 				"Angle": {
@@ -728,7 +728,7 @@
 						"Id": "Param34"
 					},
 					"VertexIndex": 1,
-					"Scale": 35,
+					"Scale": 30,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -789,7 +789,7 @@
 						"Id": "Param35"
 					},
 					"VertexIndex": 1,
-					"Scale": 50,
+					"Scale": 30,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -800,7 +800,7 @@
 						"Id": "ParamHairFront"
 					},
 					"VertexIndex": 2,
-					"Scale": 1,
+					"Scale": 2,
 					"Weight": 76,
 					"Type": "Angle",
 					"Reflect": false
@@ -871,7 +871,7 @@
 						"Id": "Param36"
 					},
 					"VertexIndex": 1,
-					"Scale": 35,
+					"Scale": 30,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -932,7 +932,7 @@
 						"Id": "Param37"
 					},
 					"VertexIndex": 1,
-					"Scale": 35,
+					"Scale": 28,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
